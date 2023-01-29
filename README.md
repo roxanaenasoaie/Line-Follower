@@ -37,9 +37,9 @@ The time to beat for a maximum grade was under 20s and we achieved 20.9 with our
 
 ## Coding
 
-We tried an empirical model at first in order to understand how everything ties together.
-After spending all day figuring out different values for the PD function which gave the speed to the wheels, we finally hit it off with a good setup.
-The P parameter was the one that directly slowed the wheelspeed (multiplied with our mapped sensor input) so we roughly calculated how much to set it and the map interval in order to reach our lowest wheelspeed which was a negative one, since we wanted to take the turns faster and have a good speed generally.
-We also tweaked the D parameter to smooth out the transitions.
-Lastly we had to make the robot calibrate its sensors without human input and we completed the run.
-We used a QTR-8A with 6 sensors active out of 8 for detecting the line and two DC motors for powering the robot.
+  We tried an empirical model at first in order to understand how everything ties together.
+  After spending all day figuring out different values for the PD function which gave the speed to the wheels, we finally hit it off with a good setup.
+  The P parameter was the one that directly slowed the wheelspeed (multiplied with our mapped sensor input) so we roughly calculated how much to set it and the map interval in order to reach our lowest wheelspeed which was a negative one, since we wanted to take the turns faster and have a good speed generally.
+  We also tweaked the D parameter to smooth out the transitions.
+  Lastly we had to make the robot calibrate its sensors without human input and we completed the run.
+  We used a QTR-8A with 6 sensors active out of 8 for detecting the line and two DC motors for powering the robot.
